@@ -1,0 +1,17 @@
+{
+  "name": "childtab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "elements": "cypress run --spec cypress/e2e/elements",
+    "regression": "cypress run --spec cypress/e2e/regression"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.16.0"
+  }
+}
