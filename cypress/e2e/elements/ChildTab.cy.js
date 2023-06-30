@@ -37,4 +37,7 @@ describe("Elements Suite", () => {
       .and("have.text", "CSS Tutorial")
       .and("have.property", "css");
   });
+  it("expect test ", () => {
+    expect(true).eq(false);
+  });
 });
